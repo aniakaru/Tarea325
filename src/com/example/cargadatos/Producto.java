@@ -15,7 +15,7 @@ public class Producto {
 	
 	private static final String BD= "Ventas.db";
 	private static final String TB="Productos";
-	private static final int VERSION =1;
+	private static final int VERSION =2;
 	private ProcesoCentral Control;
 	private final Context nContexto;
 	private SQLiteDatabase pBD;
